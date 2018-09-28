@@ -8,31 +8,48 @@
 
 #include <iostream>
 #include <cmath>
-
 using namespace std;
 
-int convertBinaryToDecimal(long long);
-
+int toDecimal(long);
+void toBinary(int a);
 int main()
 {
-    long long n;
-    
+    long n;
     cout << "Enter a binary number: ";
     cin >> n;
+    cout << n << " in binary = " << toDecimal(n) << "in decimal\n\n";
     
-    cout << n << " in binary = " << convertBinaryToDecimal(n) << "in decimal";
+    int num;
+    cout << "Please enter a decimal: ";
+    cin >> num;
+    toBinary(num);
+    
+    
     return 0;
 }
 
-int convertBinaryToDecimal(long long n)
+void toBinary(int a)
 {
-    int decimalNumber = 0, i = 0, remainder;
+    int x = a,total = 0;
+    
+    while(x > 0)
+    {
+        total = x % 2;
+        x /= 2;
+        cout << total;
+    }
+    cout << "\n";
+}
+
+int toDecimal(long n)
+{
+    int decimalNum = 0,i = 0, remaining;
     while (n!=0)
     {
-        remainder = n%10;
+        remaining = n%10;
         n /= 10;
-        decimalNumber += remainder*pow(2,i);
+        decimalNum += remaining*pow(2,i);
         ++i;
     }
-    return decimalNumber;
+    return decimalNum;
 }
