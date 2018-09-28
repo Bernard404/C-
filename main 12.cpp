@@ -11,27 +11,21 @@ using namespace std;
 
 int main()
 {
-    int n, num, digit, rev = 0;
-    
+    int x, num, remainding, reverse = 0;
     cout << "Enter a positive number: ";
     cin >> num;
+    x = num;
     
-    n = num;
-    
-    do
+    while (num != 0)
     {
-        digit = num % 10;
-        rev = (rev * 10) + digit;
+        remainding = num % 10;
+        reverse = (reverse * 10) + remainding;
         num = num / 10;
-    } while (num != 0);
+    }
     
-    cout << " The reverse of the number is: " << rev << endl;
-    
-    if (n == rev)
-        cout << " The number is a palindrome.";
+    if (x == reverse)
+        cout << " The number is a palindrome.\n";
     else
-        cout << " The number is not a palindrome.";
-    
+        cout << " The number is not a palindrome.\n";
     return 0;
-    
 }
