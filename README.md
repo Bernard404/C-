@@ -1,22 +1,22 @@
-Write a C++  Program to display "Hello, World!".
-Write a C++ Program to Print Number Entered by User
-Write a C++ Program to Add Two Numbers
-Write a C++ Program to Swap Two Numbers
-Write a C++ Program to Check Whether Number is Even or Odd
-Write a C++ Program to Check Whether a character is Vowel or Consonant.
-Write a C++ Program to Find Largest Number Among Three Numbers
-Write a C++ Program to Check Leap Year
-Write a C++ Program to Generate Multiplication Table
-Write a C++ Program to Reverse a Number. Number is an int.
-Write a C++ Program to Find ASCII Value of a Character
-Write a C++ Program to Multiply two Numbers
-Write a C++ Program to Check Whether a Number is Palindrome or Not
-Write a C++ Program to Check Whether a Number is Prime or Not
-Write a C++ Program to Convert Binary Number to Decimal and vice-versa
-Write a C++ Program to convert chars 0-9 input from the keyboard into an integer number.
-Write a C++ program to read and print elements of array of 10 ints
+1 - Write a C++  Program to display "Hello, World!".
+2 - Write a C++ Program to Print Number Entered by User
+3 - Write a C++ Program to Add Two Numbers
+4 - Write a C++ Program to Swap Two Numbers
+5 - Write a C++ Program to Check Whether Number is Even or Odd
+6 - Write a C++ Program to Check Whether a character is Vowel or Consonant.
+7 - Write a C++ Program to Find Largest Number Among Three Numbers
+8 - Write a C++ Program to Check Leap Year
+9 - Write a C++ Program to Generate Multiplication Table
+10 - Write a C++ Program to Reverse a Number. Number is an int.
+11 - Write a C++ Program to Find ASCII Value of a Character
+12 - Write a C++ Program to Multiply two Numbers
+13 - Write a C++ Program to Check Whether a Number is Palindrome or Not
+14 - Write a C++ Program to Check Whether a Number is Prime or Not
+15 - Write a C++ Program to Convert Binary Number to Decimal and vice-versa
+16 - Write a C++ Program to convert chars 0-9 input from the keyboard into an integer number.
+1. Write a C++ program to read and print elements of array of 10 ints
 2.	Write a C++ program to print all negative elements in the above array
-3	Write a C++ program to search an element in an array and prints out the index where it was found and -1 if it was not found.
+3.	Write a C++ program to search an element in an array and prints out the index where it was found and -1 if it was not found.
 4.	Write a C++ program to find maximum and minimum element in an array.
 5.	Write a C++ program to find second largest element in an array.
 6.	Write a C++ program to count total number of even and odd elements in an array.
